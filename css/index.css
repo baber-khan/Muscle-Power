@@ -5,10 +5,10 @@
 }
 
 body {
-  margin: 0;
+  margin: 10px;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
-  overflow: hidden;
+  font-family: "Arial", sans-serif;
+  /* overflow: hidden; */
 }
 
 .page {
@@ -16,7 +16,143 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+
+.container {
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+.content {
+  margin: 5px 5px 0px 0px;
+  padding: 5px 5px 5px 5px;
+}
 .btn {
-  background-color: white;
+  background-color: rgb(252, 252, 252);
   border: none;
+  font-size: 20px;
+  /* padding: 0px 20px 0px 20px; */
+}
+
+.btn-with-space-around {
+  border: none;
+  padding: 2rem 7rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.btn-color {
+  float: right;
+  padding-bottom: 50px;
+  background-color: rgb(0, 26, 255);
+  color: aliceblue;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+}
+.btn-nooutline {
+  text-decoration: none;
+  background-color: blue;
+}
+
+.text-light {
+  color: rgb(0, 39, 99);
+  font-size: 30px;
+  font-weight: normal;
+}
+.text-bold {
+  font-size: 2rem;
+  color: #7186fd;
+  font-weight: bold;
+}
+
+/* sets the position of the add button on the screen */
+.float-add {
+  padding-left: 82rem;
+  overflow: hidden;
+  background-color: #ffff;
+  position: fixed;
+  bottom: 2rem;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0%;
+  /* width: auto; */
+
+  /* overflow: hidden;
+  background-color: rgba(77, 59, 59, 0.5);
+  position: fixed;
+  bottom: 0%;
+  width: 50%; */
+}
+
+.navbar a {
+  margin-left: 0%;
+  padding-left: 25rem;
+  margin-right: 0%;
+}
+
+h2 {
+  padding-top: 40px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+p {
+  line-height: 40px;
+  color: #0f0f0f;
+  font-weight: lighter;
+}
+.card {
+  background-color: #dadada;
+  line-height: 60px;
+  margin-bottom: 15px;
+  border-radius: 0.8rem;
+}
+
+.card-text {
+  padding-left: 20px;
+}
+
+.box {
+  display: inline;
+  /* color: ; */
+  padding-top: 500px;
+  line-height: 100px;
+}
+
+.box-text {
+  padding: 60px 60px 60px 60px;
+  /* text-align: center; */
+}
+
+.flexContainer {
+  display: grid;
+  grid-column: 1 / span 2;
+}
+
+.input-box {
+  margin: 100px 0px 100px 0px;
+  padding: 100px 0px 100px 0px;
+}
+
+#welcome p {
+  padding-top: 200px;
+  padding-bottom: 150px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.input-box-style {
+  border-radius: 100px;
+  padding-bottom: 2px;
+}
+.input-padding {
+  margin-top: 120px;
+}
+.input-padding-2 {
+  margin-top: 30px;
 }
