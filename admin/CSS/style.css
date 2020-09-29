@@ -158,20 +158,20 @@ a {
 }
 
 .personal {
-  background: url(/image/images/personal.jpg) center center/cover;
+  background: url(/admin/image/images/personal.jpg) center center/cover;
   opacity: 0.6;
 }
 
 .billing {
-  background: url(/image/images/billing.jpg) center center/cover;
+  background: url(/admin/image/images/billing.jpg) center center/cover;
   opacity: 0.6;
 }
 .food {
-  background: url(/image/images/food.jpg) center center/cover;
+  background: url(/admin/image/images/food.jpg) center center/cover;
   opacity: 0.6;
 }
 .workout {
-  background: url(/image/images/workout.jpg) center center/cover;
+  background: url(/admin/image/images/workout.jpg) center center/cover;
   opacity: 0.6;
 }
 
