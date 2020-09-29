@@ -153,8 +153,6 @@ a {
 }
 #page-2 p {
   color: #fff;
-
-  z-index: -1;
 }
 
 .personal {
@@ -178,6 +176,7 @@ a {
 /* Page Two CSS Ends Here */
 
 /* Page Three CSS Starts Here */
+
 #page-3 .details {
   display: flex;
   flex-direction: column;
