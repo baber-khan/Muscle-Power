@@ -1,0 +1,241 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem;
+  /* overflow: hidden; */
+}
+.page {
+  height: 100vh;
+}
+
+/* CSS For Toggle Button  */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 8rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders  */
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* Toggle button CSS Ends  */
+
+/* Utility Classes */
+.text-bold {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.welcome-text {
+  font-weight: normal;
+  padding-top: 1rem;
+}
+
+/* Page One CSS Starts */
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-left {
+  float: left;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.user-name {
+  background-color: rgb(204, 210, 216);
+  border-radius: 1rem;
+  text-align: center;
+  line-height: 4rem;
+  border: none;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+#page-1 p {
+  color: #fff;
+}
+/* Page One CSS Ends Here */
+
+/* /* Page Two CSS Starts Here  */
+
+.container-2 {
+  overflow: auto;
+  border-radius: 2rem;
+}
+
+#page-2 .details {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(204, 210, 216);
+  border-radius: 1rem;
+  padding-left: 1.5rem;
+  height: 80vh;
+}
+#page-2 .details h3 {
+  font-weight: bold;
+  padding-top: 0.5rem;
+}
+#page-2 .btn {
+  border: none;
+  padding: 3.3rem 7rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  /* background: #efefef; */
+}
+#page-2 .home-btn {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: black;
+  background: #efefef;
+  border-radius: 5rem;
+}
+#page-2 p {
+  color: #fff;
+
+  z-index: -1;
+}
+
+.personal {
+  background: url(/image/images/personal.jpg) center center/cover;
+  opacity: 0.6;
+}
+
+.billing {
+  background: url(/image/images/billing.jpg) center center/cover;
+  opacity: 0.6;
+}
+.food {
+  background: url(/image/images/food.jpg) center center/cover;
+  opacity: 0.6;
+}
+.workout {
+  background: url(/image/images/workout.jpg) center center/cover;
+  opacity: 0.6;
+}
+
+/* Page Two CSS Ends Here */
+
+/* Page Three CSS Starts Here */
+#page-3 .details {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(204, 210, 216);
+  border-radius: 1rem;
+  padding-left: 1.5rem;
+}
+#page-3 .date {
+  padding: 2rem;
+  background-color: #efefef;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+#page-3 .back-btn {
+  background: none;
+  border: none;
+  margin-top: 10rem;
+}
+/* Page Three Ends Here */
+
+/* Page Four Starts Here */
+#page-4 .date {
+  padding: 2rem;
+  background-color: #efefef;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+#page-4 .back-btn {
+  background: none;
+  border: none;
+  margin-top: 10rem;
+}
+/* Page Four Ends Here */
+
+/* Page Five Starts Here */
+#page-5 .date {
+  padding: 2rem;
+  background-color: #efefef;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+#page-5 .back-btn {
+  background: none;
+  border: none;
+  margin-top: 10rem;
+}
+/* Page Five Ends Here */
+
+/* Page Six Starts Here  */
+#page-6 .date {
+  padding: 2rem;
+  background-color: #efefef;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+#page-6 .back-btn {
+  background: none;
+  border: none;
+  margin-top: 10rem;
+}
+/* Page Six Ends  Here */
