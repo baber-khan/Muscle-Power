@@ -130,14 +130,15 @@ a {
 #page-2 .details {
   display: flex;
   flex-direction: column;
-  background-color: rgb(204, 210, 216);
+  background-color: rgb(245, 247, 248);
   border-radius: 1rem;
-  padding-left: 1.5rem;
+  /* padding-left: 1.5rem; */
   height: 80vh;
 }
 #page-2 .details h3 {
   font-weight: bold;
-  padding-top: 0.5rem;
+  padding: 1rem;
+  margin-left: 0.5rem;
 }
 #page-2 .btn {
   border: none;
@@ -148,9 +149,9 @@ a {
   /* background: #efefef; */
 }
 #page-2 .home-btn {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   text-align: center;
-
+  box-sizing: border-box;
   color: black;
   background: #efefef;
   border-radius: 5rem;
