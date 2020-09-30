@@ -150,6 +150,7 @@ a {
 #page-2 .home-btn {
   margin-top: 0.5rem;
   text-align: center;
+
   color: black;
   background: #efefef;
   border-radius: 5rem;
@@ -180,13 +181,13 @@ a {
 
 /* Page Three CSS Starts Here */
 
-#page-3 .details {
+/* #page-3 .details {
   display: flex;
   flex-direction: column;
   background-color: rgb(204, 210, 216);
   border-radius: 1rem;
   padding-left: 1.5rem;
-}
+} */
 #page-3 .date {
   padding: 2rem;
   background-color: #efefef;
