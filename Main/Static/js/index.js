@@ -26,7 +26,7 @@ class firebase {
         this.firestore = app.firestore();
     }
 
-    SaveWorkoutDate = document.getElementById("WorkoutDate").onclick = () => {
+    SaveWorkoutDate = () => {
         this.firestore.collection("workouts").add();
     }
 }
