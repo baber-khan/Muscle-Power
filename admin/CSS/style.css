@@ -81,7 +81,9 @@ input:checked + .slider:before {
   font-size: 2.5rem;
   color: blue;
 }
-
+.p-bold {
+  font-weight: bold;
+}
 .welcome-text {
   font-weight: normal;
   padding-top: 1rem;
@@ -130,14 +132,15 @@ a {
 #page-2 .details {
   display: flex;
   flex-direction: column;
-  background-color: rgb(204, 210, 216);
+  background-color: rgb(245, 247, 248);
   border-radius: 1rem;
-  padding-left: 1.5rem;
+  /* padding-left: 1.5rem; */
   height: 80vh;
 }
 #page-2 .details h3 {
   font-weight: bold;
-  padding-top: 0.5rem;
+  padding: 1rem;
+  margin-left: 0.5rem;
 }
 #page-2 .btn {
   border: none;
@@ -149,7 +152,9 @@ a {
 }
 #page-2 .home-btn {
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
+  box-sizing: border-box;
   color: black;
   background: #efefef;
   border-radius: 5rem;
@@ -180,13 +185,13 @@ a {
 
 /* Page Three CSS Starts Here */
 
-#page-3 .details {
+/* #page-3 .details {
   display: flex;
   flex-direction: column;
   background-color: rgb(204, 210, 216);
   border-radius: 1rem;
   padding-left: 1.5rem;
-}
+} */
 #page-3 .date {
   padding: 2rem;
   background-color: #efefef;
@@ -196,13 +201,13 @@ a {
 #page-3 .back-btn {
   background: none;
   border: none;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 /* Page Three Ends Here */
 
 /* Page Four Starts Here */
 #page-4 .date {
-  padding: 2rem;
+  padding: 1rem;
   background-color: #efefef;
   margin: 1rem;
   border-radius: 1rem;
@@ -210,7 +215,7 @@ a {
 #page-4 .back-btn {
   background: none;
   border: none;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 /* Page Four Ends Here */
 
@@ -238,6 +243,6 @@ a {
 #page-6 .back-btn {
   background: none;
   border: none;
-  margin-top: 10rem;
+  margin-top: 2rem;
 }
 /* Page Six Ends  Here */
