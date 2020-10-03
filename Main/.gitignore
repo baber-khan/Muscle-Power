@@ -1,2 +1,4 @@
-firebaseConfig.js
+/.cache
+/dist
 /node_modules
+config.js
