@@ -7,11 +7,6 @@
     <link rel="stylesheet" href="Static/css/index.css" />
     <link href="http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
   
-  
-    <script type="module" src="/Main/Static/js/index.js"></script>
-
-    
-
   </head>
   <body>
     Page One Starts  -->
@@ -100,16 +95,19 @@
         </footer> -->
       </section>
       Page Four Starts -->
+
+
       <section id="workoutDay" class="page container content">
       <div>
         <h1 class="text-light">Enter <br>
           <span class='text-bold'> Workout Day </span></h1>
       <div>
-      <input type="date" class="input-box-style input-padding" type="text" placeholder="Mar 10th 2020" />
+      <input id="WorkoutDate" type="date" class="input-box-style input-padding" />
       </div>
       <div>
-        <a href="#workoutDetails">
-        <button id="WorkoutDate" class="btn btn-color">Continue</button>
+        <!-- <a href="#workoutDetails"> -->
+          <a>
+        <button id="WorkoutDateButton" class="btn btn-color">Continue</button>
         </a>
       </div>
  
@@ -381,4 +379,7 @@
     </section>
 
   </body>
+  
 </html>
+
+<script src="./Static/js/index.ts"></script>
