@@ -5,7 +5,7 @@ import 'firebase/firestore'
 const firebaseAuthUser = {
     uid: 'pmiV3qeGec0upj1Fq7nV',
     name: 'Ahmed',
-    Age: 25,
+    age: 25,
     weight: 80,
     height: "5'5",
     gender: 'Male'
