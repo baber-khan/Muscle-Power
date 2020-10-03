@@ -108,10 +108,10 @@ input:checked + .slider:before {
   align-items: center;
   background-color: rgb(204, 210, 216);
   border-radius: 1rem;
-
   line-height: 4rem;
   border: none;
 }
+
 a {
   text-decoration: none;
   font-weight: bold;
@@ -123,32 +123,21 @@ a {
 /* Page One CSS Ends Here */
 
 /* /* Page Two CSS Starts Here  */
-
-.container-2 {
-  overflow: auto;
-  border-radius: 2rem;
-}
-
 #page-2 .details {
   display: flex;
   flex-direction: column;
   background-color: rgb(245, 247, 248);
   border-radius: 1rem;
   /* padding-left: 1.5rem; */
-  height: 80vh;
 }
 #page-2 .details h3 {
   font-weight: bold;
-  padding: 1rem;
-  margin-left: 0.5rem;
+
+  padding: 0.7rem;
 }
-#page-2 .btn {
-  border: none;
-  padding: 3.3rem 7rem;
-  margin: 1rem;
-  border-radius: 1rem;
-  cursor: pointer;
-  /* background: #efefef; */
+
+#page-2 .switch {
+  margin-left: 14rem;
 }
 #page-2 .home-btn {
   margin-top: 0.5rem;
@@ -159,26 +148,75 @@ a {
   background: #efefef;
   border-radius: 5rem;
 }
-#page-2 p {
-  color: #fff;
+.details-container {
+  display: flex;
+  flex-direction: column;
 }
-
-.personal {
+.detail-container {
+  overflow: auto;
+  height: 160px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+.img-personal {
+  position: absolute;
   background: url(/admin/image/images/personal.jpg) center center/cover;
   opacity: 0.6;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
-
-.billing {
+.text-personal {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+}
+.img-billing {
+  position: absolute;
   background: url(/admin/image/images/billing.jpg) center center/cover;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   opacity: 0.6;
 }
-.food {
+.text-billing {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+}
+.img-food {
+  position: absolute;
   background: url(/admin/image/images/food.jpg) center center/cover;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   opacity: 0.6;
 }
-.workout {
+.text-food {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+}
+.img-workout {
+  position: absolute;
   background: url(/admin/image/images/workout.jpg) center center/cover;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   opacity: 0.6;
+}
+.text-workout {
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
 }
 
 /* Page Two CSS Ends Here */
