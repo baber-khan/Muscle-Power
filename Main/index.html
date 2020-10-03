@@ -6,16 +6,11 @@
     <title>Muscle Power | A Gym Companion Web App</title>
     <link rel="stylesheet" href="Static/css/index.css" />
     <link href="http://fonts.googleapis.com/css?family=Montserrat&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
-  
-  
     <script type="module" src="/js/index.js"></script>
-
-    
-
   </head>
   <body>
     Page One Starts  -->
-    <section id="welcome" class="page container content" >
+      <section id="welcome" class="page container content" >
       <div>
         <h1 class="text-light">Welcome <br>
           <span class='text-bold'> Muscle Power </span></h1>
@@ -23,7 +18,8 @@
         <a href="#home">
         <button class="btn btn-color" > Begin </button>
         </a>
-    </section>
+      </div>
+      </section>
       Page Two Starts -->
       <section id="home" class="page container content"  >
         <h1 class="text-light">Welcome, <br> 
@@ -34,13 +30,13 @@
         <h2>Your Food Intake</h2>
         <p class="card card-text">Biryani</p>
         <link rel="icon" href="Static/images/icons/btn-add.png" type="image/x-icon" />
-      <a  class="float-add"   href="#selectCategory">
+      <!-- <a  class="float-add"   href="#selectCategory">
         <button class="btn" >
         <img src="Static/images/icons/btn-add.png" alt="add" />
       </button>
-      </a>
+      </a> -->
       <!-- <a class="btn" href="#workoutHistory" >test</a>-->
-        <footer class="footer">
+        <!-- <footer class="footer">
           <nav class="navbar">
             <a href="#home">
             <button id=btn-1 class=btn>
@@ -58,7 +54,7 @@
             </button>
             </a>
           </nav>
-        </footer>
+        </footer> -->
       </div>
       </section>
       Page Three Starts -->
@@ -116,50 +112,51 @@
     </div>
       </section>
 
-      Page Five Starts -->
+
+      Page Five Starts FLEXBOXED CARDs DONE DONE DONE!!!! -->
       <section id="workoutDetails" class="page container content">
 <div>
   <h1 class="text-light">Your <br>
     <span class='text-bold'> Workout Details </span></h1>
-
 <input class= "input-box-style input-padding-2" type="text" placeholder="Push-ups" />
-
 <button class="btn">
   <img src="Static/images/icons/ico-search.png" alt="search">
 </button>
 <br> <br>
 <hr>
-
 <!-- <button class="btn-with-space-around"> -->
-  
-  <div class="main-card">
-    
-
-    
-    <div class="btn-with-space-around card-col-1">
-    <button class="btn">
-  <label for="excercise">Push-Ups</label>
-</button>
-</div>
-<div class="card-col-2">
-  <button class="btn">
-<img src="Static/images/icons/ico-minus.png" alt="minus">
-</button>
-</div>
-<div class="card-col-3">
-<button class="btn">
-<img src="Static/images/icons/ico-plus-dim.png" alt="plus-dim">
-</button>
-</div>
-</div>
-
-<!-- </button>  -->
+  <div class="btn-with-space-around main-card">
+    <div class="card-col-1">
+      <button class="btn">
+        <label for="excercise">Push-Ups</label>
+      </button>
+    </div>
+    <div class="card-col-2">
+      <button class="btn">
+        <img src="Static/images/icons/ico-minus.png" alt="minus">
+      </button>
+    </div>
+    <div class="card-col-3">
+      <button class="btn">
+        <img src="Static/images/icons/ico-plus-dim.png" alt="plus-dim">
+      </button>
+    </div>
+  </div>
 <br>
-<button class="btn-with-space-around">
-<label for="pushup">Chin-Ups</label>
-<img src="Static/images/icons/ico-plus-dim.png" alt="plus-dim">
-</button>
-</div>
+<!-- </button>  -->
+
+  <div class="btn-with-space-around main-card" >
+    <div class="card-col-1"> 
+      <button class="btn">
+        <label for="excercise">Chin-Ups</label>
+      </button>
+  </div>
+    <div class="card-col-2">
+      <button class="btn">
+        <img src="Static/images/icons/ico-plus-dim.png" alt="plus-dim">
+      </button>
+    </div>
+  </div>
 <!-- <footer>
   <a href="#home">
       <button class="btn"><img src="Static/images/icons/ico-arrow.png" alt="arrow">
@@ -175,15 +172,7 @@
 </footer> -->
       </section>
 
-
-
-
-
-
-
-
-
-      Page Six Starts -->
+      Page Six Starts  NEW UPDATED NAVIGATION inprogress-->
       <section id="workoutHistory" class="page container content">
     <div>
       <h1 class="text-light">Your <br>
@@ -194,47 +183,54 @@
       </button>
       <br><br>
       <hr />
-      <div>
-        <button class="btn-with-space-around">
+      <br>
+      <div class="main-card" >
+        <button class="btn btn-with-space-around">
           <p>Monday<br/>14th Sep 2020</p>
-        </button> <br>
-        <!-- <button><img src="" alt=""></button> insert icon here -->
-        <button class="btn-with-space-around">
-        <p >
-          Push-Ups
-          <br>
-          Sets:4 &nbsp; Repetitions:15
-        </p>
-      </button>
-      <button>
-        <img src="Static/images/icons/ico-minus.png" alt="minus" />
-      </button>
+        </button> 
       </div>
+        <br>
+        <!-- <button><img src="" alt=""></button> insert icon here -->
+      <div>
+        <div class="main-card">
+          <button class="btn-with-space-around">
+          <p> Push-Ups <br>
+          Sets:4 &nbsp; Repetitions:15
+          </p>
+          </button>
+        <button class="">
+        <img src="Static/images/icons/ico-minus.png" alt="minus"/>
+      </button>
+        </div>
+      </div>
+
+
       <div>
         <a href="#selectCategory">
         <button class="btn float-add"><img src="Static/images/icons/btn-add.png" alt="add" /></button>
         </a>
       </div>
     </div>
-    <!-- <footer>
-      <nav>
-        <a href="#home">
-          <button id=btn-1 class=btn>
-            <img src="Static/images/icons/ico-home.png" alt="home" />
-          </button>
+    
+      
+      <nav class="main-nav-2">
+        
+          <a class="nav-item-1" href="#home">
+          <img src="Static/images/icons/ico-home.png" alt="home" />
+          </a>
+
+        <a class="nav-item-2" href="#workoutHistory">
+        <img src="Static/images/icons/ico-workout.png" alt="workout" />
         </a>
-        <a href="#workoutHistory">
-          <button id=btn-2 class=btn>
-            <img src="Static/images/icons/ico-workout.png" alt="workout" />
-          </button>
-        </a>
-        <a href="#foodHistory">
-          <button id=btn-3 class=btn>
-            <img src="Static/images/icons/ico-food.png" alt="food" />
-          </button>
+        <a class="nav-item-3" href="#foodHistory">
+        <img src="Static/images/icons/ico-food.png" alt="food" />
         </a>
       </nav>
-    </footer> -->
+
+
+
+
+
       </section>
       Page Seven Starts -->
       <section id="foodDay" class="page container content">
@@ -263,7 +259,7 @@
       </a>
     </footer> -->
       </div>
-  </section>
+      </section>
       Page Eight Starts -->
       <section id="foodDetails" class="page container content">
     <div>
@@ -317,7 +313,7 @@
     </a>
   </footer> -->
 </div>
-</section>
+      </section>
       Page Nine Starts  -->
       <section id="foodHistory" class="page container content" >
         <div>
@@ -379,6 +375,5 @@
       </nav>
     </footer> -->
     </section>
-
   </body>
 </html>
