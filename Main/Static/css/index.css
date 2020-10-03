@@ -35,6 +35,23 @@ body {
   /* padding: 0px 20px 0px 20px; */
 }
 
+.btn-excersice{
+  background-color: #e4e4e4;
+  border: none;
+  font-size: 20px;
+}
+
+
+.btn-minus {
+  background-color: #e4e4e4;
+  border: #e4e4e4;
+}
+
+.btn-plus {
+  background-color: #e4e4e4;
+  border: none;
+}
+
 .btn-with-space-around {
   border: none;
   padding: 2rem 7rem;
@@ -108,7 +125,7 @@ p {
   font-weight: lighter;
 }
 .card {
-  background-color: #dadada;
+  background-color: #f30808;
   line-height: 60px;
   margin-bottom: 15px;
   border-radius: 0.8rem;
