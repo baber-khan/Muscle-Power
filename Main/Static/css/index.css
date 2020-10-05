@@ -7,15 +7,12 @@
 body {
   margin: 10px;
   padding: 0;
-  /* font-family: "Montserrat extrabold", sans-serif; */
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .page {
   height: 100vh;
 }
-
-/* Page-1: #welcome */
 
 .container {
   margin: 5px 5px 5px 5px;
@@ -27,35 +24,135 @@ body {
   padding: 5px 5px 5px 5px;
 }
 
-.btn {
+/* PAGE-1: #WELCOME */
+/* for light text heading on the section */
+#welcome .text-light {
+  font-family: "Montserrat thin", sans-serif;
+  font-size: 25pt;
+}
+
+/* for bold text heading on the section */
+#welcome .text-bold {
+  font-family: "Montserrat black", sans-serif;
+  font-size: 25pt;
+}
+
+/* for paragraph: position+font */
+#welcome p {
+  position: absolute;
+  top: 100px;
+  font-family: "Montserrat extrabold", sans-serif;
+  padding-top: 250px;
+  font-size: 16pt;
+}
+
+/* for 'begin' button: position+style */
+#welcome .btn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #e2e2e2;
+  border: none;
+  padding: 2px 20px 2px 20px;
+  border-radius: 15px;
+}
+
+/* for 'begin' button text: +style */
+#welcome .btn-text {
+  color: #000000;
+  font-family: "Montserrat semibold", sans-serif;
+  font-size: 15pt;
+}
+/* Page-2: #home */
+#home .text-light {
+  font-family: "Montserrat thin", sans-serif;
+  font-size: 25pt;
+}
+
+#home .text-bold {
+  font-family: "Montserrat black", sans-serif;
+  font-size: 25pt;
+}
+
+#home .title {
+  color: #000000;
+  font-family: "Montserrat bold", sans-serif;
+  font-size: 27pt;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#home .card {
+  background-color: #e2e2e2;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+#home .card-text {
+  font-family: "Montserrat semibold", sans-serif;
+  color: rgb(3, 3, 3);
+}
+
+#home .btn {
+  border: none;
+}
+
+#home .btn-location {
+  float: right;
+  margin-top: 5rem;
+}
+
+/* this is for navigation testing ONLY */
+
+.main-nav-2 {
+  position: flex;
+  margin-top: 150px;
+}
+
+.nav-item-1 {
+  flex: 1;
+  margin: 0px 225px;
+}
+
+.nav-item-2 {
+  flex: 1;
+  margin: 0px 225px;
+}
+
+.nav-item-3 {
+  flex: 1;
+  margin: 0px 225px;
+}
+
+/* .btn {
   background-color: rgb(252, 252, 252);
   border: none;
   font-size: 20px;
-  /* padding: 0px 20px 0px 20px; */
-}
+  padding: 0px 20px 0px 20px;
+} */
 
-.btn-with-space-around {
+/* .btn-with-space-around {
   border: none;
   padding: 2rem 7rem;
   margin: 1rem;
   border-radius: 1rem;
   cursor: pointer;
-}
+} */
 
-.btn-color {
+/* .btn-color {
   float: right;
   padding-bottom: 50px;
   background-color: rgb(0, 26, 255);
   color: aliceblue;
   padding: 5px 5px 5px 5px;
   border-radius: 15px;
-}
-.btn-nooutline {
+} */
+/* .btn-nooutline {
   text-decoration: none;
   background-color: blue;
-}
+} */
 
-.text-light {
+/* .text-light {
   color: rgb(0, 39, 99);
   font-size: 30px;
   font-weight: normal;
@@ -64,140 +161,139 @@ body {
   font-size: 2rem;
   color: #7186fd;
   font-weight: bold;
-}
+} */
 
-/* sets the position of the add button on the screen */
+/* sets the position of the add button on the screen
 .float-add {
   overflow: hidden;
   background-color: #ffff;
   position: fixed;
   bottom: 2rem;
   width: 100%;
-}
+} */
 
-.navbar {
+/* .navbar {
   display: flex;
   flex-direction: row;
   position: fixed;
   bottom: 0%;
-  /* width: auto; */
-
-  /* overflow: hidden;
+  width: auto;
+  overflow: hidden;
   background-color: rgba(77, 59, 59, 0.5);
   position: fixed;
   bottom: 0%;
-  width: 50%; */
-}
+  width: 50%;
+} */
 
-.navbar a {
+/* .navbar a {
   margin-left: 0%;
   padding-left: 25rem;
   margin-right: 0%;
-}
+} */
 
-h2 {
+/* h2 {
   padding-top: 40px;
   font-weight: bold;
   padding-bottom: 15px;
-}
+} */
 
-p {
+/* p {
   line-height: 40px;
   color: #0f0f0f;
   font-weight: lighter;
-}
-.card {
+} */
+/* .card {
   background-color: #dadada;
   line-height: 60px;
   margin-bottom: 15px;
   border-radius: 0.8rem;
-}
+} */
 
-.card-text {
+/* .card-text {
   padding-left: 20px;
-}
+} */
 
-.box {
+/* .box {
   display: inline;
-  /* color: ; */
+  color: ;
   padding-top: 500px;
   line-height: 100px;
-}
+} */
 
-.box-text {
+/* .box-text {
   padding: 60px 60px 60px 60px;
-  /* text-align: center; */
-}
+  text-align: center;
+} */
 
-.flexContainer {
+/* .flexContainer {
   display: grid;
   grid-column: 1 / span 2;
-}
+} */
 
-.input-box {
+/* .input-box {
   margin: 100px 0px 100px 0px;
   padding: 100px 0px 100px 0px;
-}
+} */
 
-#welcome p {
+/* #welcome p {
   padding-top: 200px;
   padding-bottom: 150px;
   font-size: 1.5rem;
   font-weight: bold;
-}
+} */
 
-.input-box-style {
+/* .input-box-style {
   border-radius: 100px;
   padding-bottom: 2px;
-}
-.input-padding {
+} */
+/* .input-padding {
   margin-top: 120px;
-}
-.input-padding-2 {
+} */
+/* .input-padding-2 {
   margin-top: 30px;
-}
+} */
 
-.main-card {
+/* .main-card {
   line-height: 1.6;
-  /* padding: ; */
+  padding: ;
   display: flex;
   background: #e4e4e4;
   border-radius: 1rem;
-}
+} */
 
-.card-col-1 {
+/* .card-col-1 {
   flex: 20;
   align-content: center;
-}
+} */
 
-.card-col-2 {
+/* .card-col-2 {
   flex: 3;
   align-content: center;
-}
+} */
 
-.card-col-3 {
+/* .card-col-3 {
   flex: 3;
   align-content: center;
-}
+} */
 
-/* this is for navigation testing ONLY */
+/* this is for navigation testing ONLY
 
 .main-nav-2 {
   position: fixed;
   bottom: 0vh;
-}
+} */
 
-.nav-item-1 {
+/* .nav-item-1 {
   padding-left: 200px;
   padding-right: 200px;
-}
+} */
 
-.nav-item-2 {
+/* .nav-item-2 {
   padding-left: 200px;
   padding-right: 200px;
-}
+} */
 
-.nav-item-3 {
+/* .nav-item-3 {
   padding-left: 200px;
   padding-right: 200px;
-}
+} */
