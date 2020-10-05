@@ -63,17 +63,19 @@ body {
   font-family: "Montserrat semibold", sans-serif;
   font-size: 15pt;
 }
-/* Page-2: #home */
+/* PAGE-2: #HOME */
+/* for light text heading on the section */
 #home .text-light {
   font-family: "Montserrat thin", sans-serif;
   font-size: 25pt;
 }
-
+/* for bold text heading on the section */
 #home .text-bold {
   font-family: "Montserrat black", sans-serif;
   font-size: 25pt;
 }
 
+/* for inner-section heading on the section */
 #home .title {
   color: #000000;
   font-family: "Montserrat bold", sans-serif;
@@ -82,47 +84,56 @@ body {
   padding-bottom: 20px;
 }
 
+/* for card: style */
 #home .card {
   background-color: #e2e2e2;
   padding: 25px;
   border-radius: 12px;
 }
 
+/* for card text: style */
 #home .card-text {
   font-family: "Montserrat semibold", sans-serif;
   color: rgb(3, 3, 3);
 }
 
+/* for removal of default border on button */
 #home .btn {
   border: none;
 }
 
+/* for add(button): position */
 #home .btn-location {
   float: right;
   margin-top: 5rem;
 }
 
-/* this is for navigation testing ONLY */
-
+/* this is for Bottom navigation: flexed/position */
+/* Main container for Bottom Navigation */
 .main-nav-2 {
   position: flex;
   margin-top: 150px;
 }
 
+/* Item 1 for Bottom Navigation */
 .nav-item-1 {
   flex: 1;
   margin: 0px 225px;
 }
 
+/* Item 2 for Bottom Navigation */
 .nav-item-2 {
   flex: 1;
   margin: 0px 225px;
 }
 
+/* Item 3 for Bottom Navigation */
 .nav-item-3 {
   flex: 1;
   margin: 0px 225px;
 }
+
+/* REVISED CSS ENDS HERE */
 
 /* .btn {
   background-color: rgb(252, 252, 252);
