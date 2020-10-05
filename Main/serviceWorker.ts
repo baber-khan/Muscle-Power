@@ -1,6 +1,8 @@
 import { excercise } from "./interfaces";
 
 export const excercises: Array<excercise> = [
+  //General Exercises
+
   {
     id: "push-up",
     title: "Push Up",
@@ -10,6 +12,75 @@ export const excercises: Array<excercise> = [
     id: "chin-up",
     title: "Chin Up",
   },
+  {
+    id: "skipping-rope",
+    title: "Skipping Rope",
+  },
+  {
+    id: "walking",
+    title: "Walking",
+  },
+  {
+    id: "squats",
+    title: "Squats",
+  },
+  {
+    id: "lunges",
+    title: "Lunges",
+  },
+  {
+    id: "abdominal-crunches",
+    title: "Abdominal Crunches",
+  },
+  {
+    id: "bent-over-row",
+    title: "Bent-over Row",
+  },
+  {
+    id: "front-plank",
+    title: "Front Plank",
+  },
+  {
+    id: "bent-knee-push-up",
+    title: "Bent Knee Push-up",
+  },
+  {
+    id: "squat-jumps",
+    title: "Squat Jumps",
+  },
+  {
+    id: "jogging",
+    title: "Jogging",
+  },
+  {
+    id: "standing overhead-dumbbell-presses",
+    title: "Standing Overhead Dumbbell Presses",
+  },
+  {
+    id: "burpees",
+    title: "Burpees",
+  },
+  {
+    id: "side-planks",
+    title: "Side planks",
+  },
+  {
+    id: "glute-bridge",
+    title: "Glute bridge  ",
+  },
+  {
+    id: "running",
+    title: "Running",
+  },
+  {
+    id: "wall-sit",
+    title: "Wall sit",
+  },
+  {
+    id: "step-up",
+    title: "Step-up",
+  },
+
   // (Arms Exercises)
   //Bicep Exercises
   //{ website url: https://manofmany.com/lifestyle/fitness/best-bicep-exercises-for-men}
@@ -298,10 +369,7 @@ export const excercises: Array<excercise> = [
   },
   //Thai Exercises
   //{website:https://www.onefc.com/lifestyle/5-muay-thai-exercises-you-can-do-at-home-while-life-is-on-pause/}
-  {
-    id: "skipping-rope",
-    title: "Skipping Rope",
-  },
+
   {
     id: "sit-ups",
     title: "Sit-Ups",
@@ -310,6 +378,105 @@ export const excercises: Array<excercise> = [
     id: "pull-ups",
     title: "Pull-Ups",
   },
+  // Leg Workouts
+  //{website:https://www.mensjournal.com/health-fitness/30-best-leg-exercises-and-workouts-of-all-time/10-bodyweight-calf-raise/}
+  {
+    id: "front-squat",
+    title: "Front Squat",
+  },
+  {
+    id: "bulgarian-split-squat",
+    title: "Bulgarian Split Squat",
+  },
+  {
+    id: "romanian-deadlift",
+    title: "Romanian Deadlift",
+  },
+  {
+    id: "squat",
+    title: "Squat",
+  },
+  {
+    id: "dumbbell-stepup",
+    title: "Dumbbell Stepup",
+  },
+  {
+    id: "deadlift",
+    title: "Deadlift",
+  },
+  {
+    id: "swiss-ball-leg-curl",
+    title: "Swiss Ball Leg Curl",
+  },
+  {
+    id: "single-leg-romanian-deadlift",
+    title: "Single-Leg Romanian Deadlift",
+  },
+  {
+    id: "leg-press",
+    title: "Leg Press",
+  },
+  {
+    id: "bodyweight-calf-raise",
+    title: "Bodyweight Calf Raise",
+  },
+  {
+    id: "walking-lunge",
+    title: "Walking Lunge",
+  },
+  {
+    id: "pause-squat",
+    title: "Pause Squat",
+  },
+  {
+    id: "dumbbell-squat",
+    title: "Dumbbell Squat",
+  },
+  {
+    id: "kettlebell-swing",
+    title: "Kettlebell Swing",
+  },
+  {
+    id: "jump-squat",
+    title: "Jump Squat",
+  },
+  {
+    id: "barbell-calf-raise",
+    title: "Barbell Calf Raise",
+  },
+  {
+    id: "kneeling-hip-flexor-stretch",
+    title: "Kneeling Hip Flexor Stretch",
+  },
+  {
+    id: "skater-squat",
+    title: "Skater Squat",
+  },
+  {
+    id: "jumping calf-raise",
+    title: "Jumping Calf Raise",
+  },
+  {
+    id: "barbell-hip-thrust",
+    title: "Barbell Hip Thrust",
+  },
+  {
+    id: "glute-bridge-walkout",
+    title: "Glute Bridge Walkout",
+  },
+  {
+    id: "single-leg-glute-bridge",
+    title: "Single-Leg Glute Bridge",
+  },
+  {
+    id: "kettlebell-press-out",
+    title: "Kettlebell Press-Out",
+  },
+  {
+    id: "swiss-ball-wall-squat",
+    title: "Swiss Ball Wall Squat",
+  },
+
   // Calf Exercises
   //{Website: https://manofmany.com/lifestyle/fitness/best-calf-exercises-for-men}
   {
