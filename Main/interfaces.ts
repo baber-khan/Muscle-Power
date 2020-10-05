@@ -31,7 +31,7 @@ export interface WorkoutDay {
 export interface Meal {
   id: string;
   title: string;
-  timeOfDay: "breakfast" | "lunch" | "dinner";
+  //   timeOfDay: "breakfast" | "lunch" | "dinner";
 }
 
 export interface FoodDay {
