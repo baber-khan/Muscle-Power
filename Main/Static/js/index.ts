@@ -6,6 +6,6 @@ document.getElementById('WorkoutDateButton').addEventListener('click', () => {
   firebaseHelper.saveWorkoutDate(Date.value);
 });
 
-excercises.forEach((value) => {
+export const test = excercises.forEach((value) => {
   console.log(value.id);
 });
