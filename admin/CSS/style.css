@@ -88,6 +88,11 @@ input:checked + .slider:before {
   font-weight: normal;
   padding-top: 1rem;
 }
+.back-btn {
+  background: none;
+  border: none;
+  margin-top: 2rem;
+}
 
 /* Page One CSS Starts */
 
@@ -236,39 +241,27 @@ a {
   margin: 1rem;
   border-radius: 1rem;
 }
-#page-3 .back-btn {
-  background: none;
-  border: none;
-  margin-top: 2rem;
-}
+
 /* Page Three Ends Here */
 
 /* Page Four Starts Here */
-#page-4 .date {
+/* #page-4 .date {
   padding: 1rem;
   background-color: #efefef;
   margin: 1rem;
   border-radius: 1rem;
-}
-#page-4 .back-btn {
-  background: none;
-  border: none;
-  margin-top: 2rem;
-}
+} */
+
 /* Page Four Ends Here */
 
 /* Page Five Starts Here */
-#page-5 .date {
+/* #page-5 .date {
   padding: 2rem;
   background-color: #efefef;
   margin: 1rem;
   border-radius: 1rem;
-}
-#page-5 .back-btn {
-  background: none;
-  border: none;
-  margin-top: 10rem;
-}
+} */
+
 /* Page Five Ends Here */
 
 /* Page Six Starts Here  */
@@ -278,9 +271,5 @@ a {
   margin: 1rem;
   border-radius: 1rem;
 }
-#page-6 .back-btn {
-  background: none;
-  border: none;
-  margin-top: 2rem;
-}
+
 /* Page Six Ends  Here */
