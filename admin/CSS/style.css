@@ -4,11 +4,7 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 1rem;
-  /* overflow: hidden; */
-}
-.page {
-  height: 100vh;
+  overflow: hidden;
 }
 
 /* CSS For Toggle Button  */
@@ -33,7 +29,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #ffa8a8;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -45,17 +41,17 @@ body {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: #ffcfcf;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #d9ffcf;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
+  box-shadow: 0 0 1px #c4ffa8;
 }
 
 input:checked + .slider:before {
@@ -76,82 +72,84 @@ input:checked + .slider:before {
 /* Toggle button CSS Ends  */
 
 /* Utility Classes */
-.text-bold {
-  font-weight: bold;
-  font-size: 2.5rem;
-  color: blue;
+.welcome-text {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  font-size: 18px;
+  font-family: "Montserrat regular", sans-serif;
+}
+.trainer {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Montserrat black", sans-serif;
 }
 .p-bold {
   font-weight: bold;
 }
-.welcome-text {
-  font-weight: normal;
-  padding-top: 1rem;
+.main-data {
+  background: #f8f8f8;
+  padding: 2rem;
+  border-radius: 1rem;
 }
-.back-btn {
-  background: none;
-  border: none;
-  margin-top: 2rem;
-}
-
 /* Page One CSS Starts */
-
-.container-1 {
+#page-1 {
+  height: 100vh;
+  margin: 1rem;
+}
+.user-container {
   display: flex;
   flex-direction: column;
+  background: #f8f8f8;
+  height: 70vh;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
 }
-
-.text-left {
+#page-1 h2 {
   float: left;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-left: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
 }
 .user-name {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(204, 210, 216);
-  border-radius: 1rem;
-  line-height: 4rem;
+  background-color: #f5f3f3;
+  border-radius: 1.5rem;
+  line-height: 64px;
   border: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
 a {
   text-decoration: none;
   font-weight: bold;
   font-size: larger;
 }
 #page-1 p {
-  color: #fff;
+  color: black;
 }
 /* Page One CSS Ends Here */
 
 /* /* Page Two CSS Starts Here  */
-#page-2 .details {
+#page-2 {
+  margin: 1rem;
+  height: 100vh;
+}
+.main-showcase {
+  height: 77vh;
+  overflow: auto;
   display: flex;
   flex-direction: column;
   background-color: rgb(245, 247, 248);
   border-radius: 1rem;
-  /* padding-left: 1.5rem; */
+  padding-bottom: 1rem;
+  /* overflow: auto; */
 }
-#page-2 .details h3 {
+#page-2 h3 {
   font-weight: bold;
-
-  padding: 0.7rem;
-}
-
-#page-2 .switch {
-  margin-left: 14rem;
-}
-#page-2 .home-btn {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
-  box-sizing: border-box;
-  color: black;
-  background: #efefef;
-  border-radius: 5rem;
+  padding: 1rem;
 }
 .details-container {
   display: flex;
@@ -166,11 +164,12 @@ a {
   align-items: center;
   border-radius: 2rem;
   margin: 1rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .img-personal {
   position: absolute;
   background: url(/admin/image/images/personal.jpg) center center/cover;
-  opacity: 0.6;
+  opacity: 0.3;
   top: 0px;
   bottom: 0px;
   left: 0px;
@@ -178,7 +177,7 @@ a {
 }
 .text-personal {
   position: absolute;
-  color: #fff;
+  color: black;
   font-weight: bold;
 }
 .img-billing {
@@ -188,12 +187,13 @@ a {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 .text-billing {
   position: absolute;
-  color: #fff;
+  color: black;
   font-weight: bold;
+  font-size: 20px;
 }
 .img-food {
   position: absolute;
@@ -202,12 +202,13 @@ a {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 .text-food {
   position: absolute;
-  color: #fff;
+  color: black;
   font-weight: bold;
+  font-size: 20px;
 }
 .img-workout {
   position: absolute;
@@ -216,55 +217,81 @@ a {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 .text-workout {
   position: absolute;
-  color: #fff;
+  color: black;
   font-weight: bold;
 }
-
+#page-2 .home-btn {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: black;
+}
 /* Page Two CSS Ends Here */
 
 /* Page Three CSS Starts Here */
+#page-3 {
+  margin: 1rem;
+  height: 100vh;
+}
 
-/* #page-3 .details {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(204, 210, 216);
-  border-radius: 1rem;
-  padding-left: 1.5rem;
-} */
 #page-3 .date {
   padding: 2rem;
   background-color: #efefef;
   margin: 1rem;
   border-radius: 1rem;
 }
+#page-3 .back-btn {
+  background: none;
+  border: none;
+  margin-top: 2rem;
+  color: black;
+}
 
 /* Page Three Ends Here */
 
 /* Page Four Starts Here */
-/* #page-4 .date {
+#page-4 {
+  margin: 1rem;
+  height: 100vh;
+}
+
+#page-4 .date {
   padding: 1rem;
   background-color: #efefef;
   margin: 1rem;
   border-radius: 1rem;
-} */
+}
+.back-btn {
+  background: none;
+  border: none;
+  margin-top: 2rem;
+  color: black;
+}
 
 /* Page Four Ends Here */
 
 /* Page Five Starts Here */
-/* #page-5 .date {
+#page-5 {
+  margin: 1rem;
+  height: 100vh;
+}
+#page-5 .date {
   padding: 2rem;
   background-color: #efefef;
   margin: 1rem;
   border-radius: 1rem;
-} */
+}
 
 /* Page Five Ends Here */
 
 /* Page Six Starts Here  */
+#page-6 {
+  margin: 1rem;
+  height: 100vh;
+}
 #page-6 .date {
   padding: 2rem;
   background-color: #efefef;
